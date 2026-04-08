@@ -7864,19 +7864,6 @@
 		)
 		(uuid "5f2fa208-25c5-4538-80ed-f09f8b42f729")
 	)
-	(text "KÖP:\nBAT54J (och BAT54K kanske)\nTCPP01\nN-MOSFET - STL11N3LLH6\nSTM32\nTLV9001 op amp\nFC-135R 32.7680KA-AC0 \nC1F 7  (FUSE)\nSMBJ24A (TVS)\nPJ-002AH (Barrel jack)\n10 ohm (0603) 30-50 st\n82k ohm (0603) 20-30 st\n26k1 ohm (0603) 20-30 st\n6k8 ohm (0603) 20-30 st\n620 ohm (0603) 20-30 st\nDubbelkolla om du har spole\n1206 10uF cap\n0603 3n9 cap\n0805 4u7 cap\nSRN5040TA-100M \n10mOHM resistor shunt 3W"
-		(exclude_from_sim no)
-		(at -38.1 114.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "6b3f6ff8-5d98-41e9-a0e7-04930dc5161d")
-	)
 	(text ""
 		(exclude_from_sim no)
 		(at 234.95 156.21 0)
@@ -7887,16 +7874,6 @@
 			(justify left)
 		)
 		(uuid "6f787358-298c-420b-9338-86242ff26ca1")
-	)
-	(text "CHECK FOOTPRINT"
-		(exclude_from_sim no)
-		(at 42.672 56.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af2b2401-25b0-421a-92d3-63db2f46691d")
 	)
 	(text "Figure 13 in datasheet"
 		(exclude_from_sim no)
@@ -8363,10 +8340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff088c94-f6af-4645-99b9-171daf5ba1a5")
-	)
-	(no_connect
-		(at 162.56 127)
-		(uuid "3fa1be42-9486-438a-a333-f585c0be30ab")
 	)
 	(no_connect
 		(at 259.08 124.46)
@@ -19106,7 +19079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 38.1 55.88 0)
 			(hide yes)
 			(show_name no)
